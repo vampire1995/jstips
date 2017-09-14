@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var chester='Linkin park Singer';
+			console.log(chester.charAt(3));
+			console.log(chester.charCodeAt(3));
+			console.log(String.fromCharCode(107));
+			console.log(chester.concat('handsome'));
+			console.log(chester.indexOf('k'));
+			console.log(chester.lastIndexOf('k'));
+			console.log(chester.search(/kin/gi));
+			console.log(chester.replace('k','z'));
+			console.log(chester.replace(/k/gi,'z'));
+			console.log(chester.substring(3,8));
+			console.log(chester.split(' '))
+			var arr=chester.split(' ');
+			console.log( typeof arr);
+			console.log(chester.toLowerCase());
+			console.log(chester.toUpperCase());
+		</script>
+	</body>
+</html>
